@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="39" name="HelloWorld">
+    <Basepaths>/hello</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1508611511413</CreatedAt>
+    <CreatedBy>12ps93r@gmail.com</CreatedBy>
+    <Description>Proxy displays a hello message to the user</Description>
+    <DisplayName>HelloWorld</DisplayName>
+    <LastModifiedAt>1508611511413</LastModifiedAt>
+    <LastModifiedBy>12ps93r@gmail.com</LastModifiedBy>
+    <Policies>
+        <Policy>ExtractVariables-2</Policy>
+        <Policy>ExtractVariables.ExtractBrands</Policy>
+        <Policy>ResponseCacheCacheHelloMessage</Policy>
+        <Policy>SpikeArrest</Policy>
+        <Policy>rewriteTargetUrl</Policy>
+        <Policy>target-url-brand</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://JavaScript-1.js</Resource>
+        <Resource>jsc://rewriteTargetUrl.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>true</validate>
+</APIProxy>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables name="ExtractVariables.ExtractBrands" async="false" continueOnError="true" enabled="true">
+    <DisplayName>ExtractVariables.ExtractBrandsVariable</DisplayName>
+    <Source>request</Source>
+    <QueryParam name="BRANDS">
+        <Pattern ignoreCase="true">{brandsCode}</Pattern>
+    </QueryParam>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <VariablePrefix>getPortByBrandsCode</VariablePrefix>
+</ExtractVariables>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><ProxyEndpoint name="default">
+    <Description>Proxy endpoint to display a hello message to user</Description>
+    <FaultRules/>
+    <PreFlow name="PreFlow">
+        <Request>
+            <Step>
+                <Name>ExtractVariables-2</Name>
+            </Step>
+            <Step>
+                <Name>ResponseCacheCacheHelloMessage</Name>
+            </Step>
+        </Request>
+        <Response/>
+    </PreFlow>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response/>
+    </PostFlow>
+    <Flows/>
+    <HTTPProxyConnection>
+        <BasePath>/hello/world</BasePath>
+        <Properties/>
+        <VirtualHost>default</VirtualHost>
+        <!--<VirtualHost>secure</VirtualHost>-->
+    </HTTPProxyConnection>
+    <RouteRule name="default">
+        <TargetEndpoint>default</TargetEndpoint>
+    </RouteRule>
+</ProxyEndpoint>

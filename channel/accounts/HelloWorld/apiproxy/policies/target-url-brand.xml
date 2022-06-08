@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Javascript enabled="true" name="target-url-brand">
+    <DisplayName>extract variable demo</DisplayName>
+    <ResourceURL>jsc://JavaScript-1.js</ResourceURL>
+</Javascript>

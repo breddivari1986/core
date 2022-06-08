@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables name="ExtractVariables-2">
+    <DisplayName>Extract a value from a query parameter</DisplayName>
+    <Source>request</Source>
+    <QueryParam name="code">
+        <Pattern ignoreCase="true">{dbncode}</Pattern>
+    </QueryParam>
+    <QueryParam name="code.2">
+        <Pattern ignoreCase="true">{secondCode}</Pattern>
+    </QueryParam>
+    <!--<VariablePrefix>queryinfo</VariablePrefix>-->
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</ExtractVariables>
