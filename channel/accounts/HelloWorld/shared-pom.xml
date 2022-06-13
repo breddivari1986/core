@@ -181,7 +181,7 @@
                 <apigee.profile>test</apigee.profile>
                 <apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
                 <apigee.apiversion>v1</apigee.apiversion>
-                <apigee.org>${org}</apigee.org>
+                <apigee.org>api-sandbox-298216</apigee.org>
                 <apigee.env>playground-dev</apigee.env>
                 <apigee.username>${username}</apigee.username>
                 <apigee.password>${password}</apigee.password>
