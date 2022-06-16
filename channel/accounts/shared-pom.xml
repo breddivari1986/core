@@ -35,10 +35,10 @@
                         </goals>
                         <configuration>
                             <overwrite>true</overwrite>
-                            <outputDirectory>${basedir}/target</outputDirectory>
+                            <outputDirectory>${basedir}/target/apiproxy</outputDirectory>
                             <resources>
                                 <resource>
-                                    <directory>.</directory>
+                                    <directory>apiproxy</directory>
                                 </resource>
                             </resources>
                         </configuration>
