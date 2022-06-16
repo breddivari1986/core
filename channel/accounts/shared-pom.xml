@@ -39,6 +39,10 @@
                             <resources>
                                 <resource>
                                     <directory>apiproxy</directory>
+                                    <excludes>
+                                       <exclude>pom.xml</exclude>
+                                       <exclude>config.json</exclude>
+                                    </excludes>
                                 </resource>
                             </resources>
                         </configuration>
