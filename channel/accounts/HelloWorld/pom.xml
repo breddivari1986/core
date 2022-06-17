@@ -6,6 +6,11 @@
 		<version>1.0</version>
 		<relativePath>../shared-pom.xml</relativePath>
 	</parent>
+	    <scm>
+        <connection>scm:git:https://github.com/breddivari1986/core.git</connection>
+        <url>https://github.com/breddivari1986/core/channel/accounts/HelloWorld</url>
+      <tag>HEAD</tag>
+  </scm>
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.api</groupId>
 	<artifactId>HelloWorld</artifactId>
